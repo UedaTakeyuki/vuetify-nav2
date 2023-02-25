@@ -24,6 +24,7 @@
   },
   "main": "./src/build-entry.js",
   "files": [
+    "dist/*",
     "src/components/Navbar.vue",
     "src/build-entry.js"
   ],
@@ -60,5 +61,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
