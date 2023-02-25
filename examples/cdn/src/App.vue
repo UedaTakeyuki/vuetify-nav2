@@ -1,28 +1,27 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <Navbar titleStr="Demo App" :links="links"/>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import {Navbar} from 'vuetify-nav2'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar
+  },
+  data: () => ({
+    links: [
+      { icon: 'home', text: 'Home', route: '/'},
+      { icon: 'info', text: 'About', route: '/about'},
+    ]
+  }),
+  mounted(){
+    console.log("window",window)
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

@@ -1,10 +1,7 @@
 module.exports = {
-  transpileDependencies: [
-    'vuetify'
+  "transpileDependencies": [
+    "vuetify"
   ],
-  css:{
-    extract:false  
-  },
   chainWebpack: (config) => {
     // https://qiita.com/uturned0/items/5fdf2d92548274fe56e3
     // https://rinoguchi.net/2020/05/vue-firebase-reduce-bundle-size.html
@@ -12,6 +9,9 @@ module.exports = {
     config.externals({
       vue: 'Vue',
       vuetify: 'Vuetify',
+//      'vuetify/lib/framework': 'Vuetify',
+      'vue-router': 'VueRouter',
+      'vuetify-nav2': 'VuetifyNav2',
 //      'vuetify/lib': 'Vuetify',
 //      'qrcode-of-this-site2':'QRcode',
     })
