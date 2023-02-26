@@ -1,6 +1,9 @@
 # Out-of-the-box Vuetify navigation menu component, with Toolbar, Navigation Drawers, Menus, and QR code
 
-Provide Toolbar with Navigation drawer and drop down menu as follows:
+The successor of [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav).
+
+## What is Vuetify-nav for?
+For Providing **Toolbar** with **Navigation drawer** and **drop down menu** as follows:
 
 ### Toolbar
 <img src="https://github.com/UedaTakeyuki/vuetify-nav/blob/main/img/ss.2021-05-28_8.26.04.png" width="90%"/> 
@@ -25,8 +28,9 @@ npm install vuetify-nav
 yarn add vuetify-nav 
 ```
 
-Or CDN.   
-For more detail, refer [wiki](https://github.com/UedaTakeyuki/vuetify-nav/wiki/Install).
+Or CDN.  
+
+For more detail, refer [wiki](https://github.com/UedaTakeyuki/vuetify-nav2/wiki/Install).
 
 ## How to use
 Just set ``<Navbar/>`` component to your ``App.vue`` file as follows:
@@ -39,7 +43,7 @@ Just set ``<Navbar/>`` component to your ``App.vue`` file as follows:
 </template>
 
 <script>
-import {Navbar} from 'vuetify-nav'
+import {Navbar} from 'vuetify-nav2'
 export default {
   components: { Navbar},
   data: () => ({
