@@ -8597,10 +8597,10 @@ vuetify-loader@^1.7.0:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify-nav2@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/vuetify-nav2/-/vuetify-nav2-1.0.2.tgz#2bb2cf2b05dc51ddd0eda864bbaf190d2c884f68"
-  integrity sha512-CRYevBtpARgOOCzxcPDO+ycqkDCc+vpmBtyuz5zIpZer2Gaems10J4NYb5W+TAhZpAxnEImag/sB1TXShylG5w==
+vuetify-nav2@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vuetify-nav2/-/vuetify-nav2-1.0.6.tgz#41bde0ec7d25035088265b34ae0e2bb2de4b91d5"
+  integrity sha512-ApP4jsJuwfJWw3HuYhRg9VXkyxsNZJYbn2YfdZM469UsapED9mvavRck+T5eTpfVxXMj+uhr0saQlUTA/GUsHQ==
   dependencies:
     core-js "^3.6.5"
     qrcode-of-this-site2 "1.0.13"

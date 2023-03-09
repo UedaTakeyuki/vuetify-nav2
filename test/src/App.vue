@@ -11,6 +11,7 @@
 <script>
 /* eslint-disable */
 import {Navbar} from '../../src/build-entry'
+//import {Navbar} from '../../dist/VuetifyNav2.umd'
 import { mdiHome, /*mdiArrowLeft*/} from "@mdi/js";
 
 export default {
