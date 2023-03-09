@@ -29,6 +29,7 @@
     "src/build-entry.js"
   ],
   "dependencies": {
+    "@mdi/js": "^7.1.96",
     "core-js": "^3.6.5",
     "qrcode-of-this-site2": "1.0.13",
     "vue": "^2.6.11"
@@ -61,5 +62,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "version": "1.0.6"
+  "version": "1.0.7"
 }
