@@ -26,6 +26,7 @@
   "files": [
     "dist/*",
     "src/components/Navbar.vue",
+    "src/components/SvgIconMenu.vue",
     "src/build-entry.js"
   ],
   "dependencies": {
@@ -62,5 +63,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "version": "1.0.9"
+  "version": "1.0.10"
 }
