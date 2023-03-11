@@ -32,7 +32,7 @@
   "dependencies": {
     "@mdi/js": "^7.1.96",
     "core-js": "^3.6.5",
-    "qrcode-of-this-site2": "1.0.13",
+    "qrcode-of-this-site2": "^1.1.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -63,5 +63,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "version": "1.1.0"
+  "version": "1.2.0"
 }
