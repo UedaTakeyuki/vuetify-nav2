@@ -1,7 +1,7 @@
 <template>
   <nav>
     <v-app-bar>
-      <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"><SvgIconMenu style="width: 75%; height: 75%;"/></v-app-bar-nav-icon>
 
       <slot name="title">
         <v-toolbar-title class="grey--text">
@@ -50,13 +50,14 @@
 
 <script>
 import {QRcode} from 'qrcode-of-this-site2'
+import SvgIconMenu from './SvgIconMenu'
 //import {AccountRoutes, PurchaseRoutes} from 'vue-faui-user-fe/'
 export default {
   props: {
     titleStr: String,
     links: Array,
   },
-  components: {QRcode},
+  components: {QRcode, SvgIconMenu},
   data: () => ({
     drawer: false,
 /*    links: [
