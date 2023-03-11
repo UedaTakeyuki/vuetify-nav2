@@ -1037,6 +1037,11 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@mdi/js@^7.1.96":
+  version "7.1.96"
+  resolved "https://registry.yarnpkg.com/@mdi/js/-/js-7.1.96.tgz#9c5a7f8a20ea63c03b09a0dba1768fe8b70eeaf9"
+  integrity sha512-wlrJs6Ryhaa5CqhK3FjTfMRnb/s7HeLkKMFqwQySkK86cdN1TGdzpSM3O4tsmzCA1dYBeTbXvOwSE/Y42cUrvA==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmmirror.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -6888,10 +6893,10 @@ q@^1.1.2:
   resolved "https://registry.npmmirror.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==
 
-qrcode-of-this-site2@1.0.13:
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/qrcode-of-this-site2/-/qrcode-of-this-site2-1.0.13.tgz#aa3d0ce6be2cd3bd7751caf5d4de75f52f784a5f"
-  integrity sha512-ar5Xs0vMO+BNMqJ4Lh8QnAY0J1VVyRFtiFjUxFzJlMfwBFatpo1yBqfffaqPcrIoZVrC6vxMxanT9ySj+VL5Fw==
+qrcode-of-this-site2@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/qrcode-of-this-site2/-/qrcode-of-this-site2-1.1.0.tgz#002bc074446d33f8c3ecc9ea4fb26eeca6d13745"
+  integrity sha512-nZ2MGysrKeeNR6Vo0svf5rDluw9z2UUP0QaJK4vyytvZEvTU+gadjRgb6NIJp/46Eu3YeXeT5A68Atelv0SvtA==
   dependencies:
     core-js "^3.6.5"
     qrcode "^1.5.1"

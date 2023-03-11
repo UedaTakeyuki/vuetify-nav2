@@ -74,4 +74,6 @@ Github [issues](https://github.com/UedaTakeyuki/vuetify-nav/issues) are availabl
 - vuetify-nav@3: for Vue3
 
 ## History
-- 1.0.0  2023.02.25 forked from vuetify-nav
+- 1.0.0 2023.02.25 forked from vuetify-nav
+- 1.1.0 2023.03.11 add svg to menu
+- 1.2.0 2023.03.11 add qrExp props
