@@ -1,6 +1,6 @@
 # Out-of-the-box Vuetify navigation menu component, with Toolbar, Navigation Drawers, Menus, and QR code
 
-The successor of [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav).
+This Package is the successor of [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav) for **Vue2 + Vuetify2**. 
 
 ## What is Vuetify-nav for?
 For Providing **Toolbar** with **Navigation drawer** and **drop down menu** as follows:
