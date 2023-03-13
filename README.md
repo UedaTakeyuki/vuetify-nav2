@@ -1,6 +1,6 @@
 # Out-of-the-box Vuetify navigation menu component, with Toolbar, Navigation Drawers, Menus, and QR code
 
-This Package is the successor of [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav) for **Vue2 + Vuetify2**.
+This Package is the successor of [vuetify-nav](https://github.com/UedaTakeyuki/vuetify-nav) for **Vue2 + Vuetify2**.  
 For **Vue3 + Vuetify3**, package is avallable at [vuetify-nav3](https://www.npmjs.com/package/vuetify-nav3). 
 
 ## What is Vuetify-nav for?
